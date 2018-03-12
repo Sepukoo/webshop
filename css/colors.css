@@ -1,0 +1,171 @@
+.color-primary{
+    color: #1d40d8;
+}
+
+.color-primary-dark{
+    color: darkblue;    
+}
+
+.color-primary-light{
+    color: lightblue;
+}
+
+.color-accent{
+    color: #2bff00;    
+}
+
+.color-accent-light{
+    color: rgb(70, 250, 70);
+}
+
+.color-accent-dark{
+    color: rgb(1, 134, 1);
+}
+
+.color-success{
+    color: #f8c701;
+}
+
+.color-success-light{
+    color: rgb(250, 253, 47);  
+}
+
+.color-success-dark{
+    color: #c59e00;
+}
+
+.color-warning{
+    color: #fd3402;
+}
+
+.color-warning-light{
+    color: #fc623b;
+}
+
+.color-warning-dark{
+    color: #921e01;
+}
+
+.color-danger{
+    color: #ff0404;
+}
+
+.color-danger-light{
+    color: #ff2f2f;
+}
+
+.color-danger-dark{
+    color: #ad0202;
+}
+
+.color-info{
+    color: #06bcf8;
+}
+
+.color-info-light{
+    color: #3acbfc;
+}
+
+.color-info-dark{
+    color: #0286b3;
+}
+
+.color-primary-bg{
+    color: #1d40d8;
+}
+    
+.color-primary-bg-dark{
+    color: darkblue;    
+}
+    
+.color-primary-bg-light{
+    color: lightblue;
+}
+
+.color-accent-bg{
+    color: #2bff00;    
+}
+    
+.color-accent-bg-light{
+    color: rgb(70, 250, 70);
+}
+    
+.color-accent-bg-dark{
+    color: rgb(1, 134, 1);
+}
+
+.color-success-bg{
+    color: #f8c701;
+}
+
+.color-success-bg-light{
+    color: rgb(250, 253, 47);  
+}
+
+.color-success-bg-dark{
+    color: #c59e00;
+}
+
+.color-warning-bg{
+    color: #fd3402;
+}
+    
+.color-warning-bg-light{
+    color: #fc623b;
+}
+    
+.color-warning-bg-dark{
+    color: #921e01;
+}
+
+.color-danger-bg{
+    color: #ff0404;
+}
+
+.color-danger-bg-light{
+    color: #ff2f2f;
+}
+
+.color-danger-bg-dark{
+    color: #ad0202;
+}
+
+.color-info-bg{
+    color: #06bcf8;
+}
+
+.color-info-bg-light{
+    color: #3acbfc;
+}
+
+.color-info-bg-dark{
+    color: #0286b3;
+}
+
+.color-background-main{
+    background-color: rgb(209, 207, 207);
+}
+
+.color-background-main-light{
+    background-color: rgb(230, 216, 216);
+}
+
+.color-background-main-dark{
+    background-color: rgb(146, 144, 144);
+}    
+
+.color-background-secondary{
+    background-color: rgb(0, 0, 0);
+}
+
+.color-background-secondary-light{
+    background-color: rgb(43, 40, 40);
+}
+
+.border{
+    border: solid 1px black;
+}
+
+.inactive{
+    color: grey;
+}

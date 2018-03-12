@@ -1,0 +1,184 @@
+.flex-justify-left{
+    justify-content: left;
+    justify-content: space-between;
+}
+
+.flex-justify-right{
+    justify-content: right;
+    justify-content: space-between;
+}
+
+.flex-space-evenly{
+    justify-content: space-around;
+}
+
+.align-content-center{
+    align-content: center;
+    align-content: space-between;
+}
+
+.flex-item{
+font-size: 30px;
+color: #0088ce;
+padding: 50px;
+}
+
+.flex-navbar{
+    padding:10px;
+}
+
+.flex-content{
+    flex: 0 1 auto; 
+ } 
+  /*slett meg*/
+
+
+    
+.flex-sak{
+      width: 400px;
+      height: 400px;
+
+  }
+
+.container{
+      width: 100%;
+      height: 100%;
+  }
+
+ /* utility class  */
+.text-center {
+    text-align:center;
+}
+
+.hovertest {
+    transition: background-color 0.5s;
+  }
+  
+.hovertest:hover {
+    background-color: pink;
+  }
+
+.hovertest1 {
+    transition: background-color 0.5s;
+  }
+  
+.hovertest1:hover {
+    background-color: yellow;
+  }
+
+.hovertest2 {
+     transition: background-color 0.5s;
+  }
+  
+.hovertest2:hover {
+    background-color: darkmagenta;
+  }
+
+.box-150-px{
+    height: 150;
+    width: 150px;
+    border: solid 1px black;
+}
+
+.box-300-px{
+    border: solid;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+   /* background-color: purple;   */
+  
+}
+
+.box-200-px{
+    border: solid;
+    width: 200px;
+    height: 200px;
+   
+}
+
+.margin-25{
+    margin: 25px;
+}
+
+.margin-50{
+    margin: 50px;
+}
+
+.margin-100{
+    margin: 100px;
+}
+
+.box-50-px-1{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border: solid 1px red;
+} 
+
+.box-100-px-1{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    border: solid 1px red;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+
+
+.temp{
+    height: 150px;
+    width: 150px;
+}
+
+.border{
+    border:solid 1px;
+    color: black;
+}
+
+.border-radius-1{
+    border-radius: 30px;
+}
+
+.border-radius-2{
+    border-radius: 25% 10%;
+}
+
+.border-radius-3{
+    border-radius: 10% 30% 50% 70%;
+}
+
+.border-radius-4{
+    border-radius: 10% / 50%;
+}
+
+.border-radius-5{
+    border-radius: 10px 100px / 120px;
+}
+
+.border-radius-6{
+    border-radius: 50% 20% / 10% 40%;
+}
+
+.bilde{
+    background-image: url(https://images.alphacoders.com/238/thumb-1920-238183.jpg);
+
+}
+
+.img {
+    height: 120px;
+  }
+  
+  .cover {
+    width: 260px;
+    object-fit: cover;
+  }
