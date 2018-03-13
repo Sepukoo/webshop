@@ -71,75 +71,75 @@
 }
 
 .color-primary-bg{
-    color: #1d40d8;
+    background-color: #1d40d8;
 }
     
 .color-primary-bg-dark{
-    color: darkblue;    
+    background-color: darkblue;    
 }
     
 .color-primary-bg-light{
-    color: lightblue;
+    background-color: lightblue;
 }
 
 .color-accent-bg{
-    color: #2bff00;    
+    background-color: #2bff00;    
 }
     
 .color-accent-bg-light{
-    color: rgb(70, 250, 70);
+    background-color: rgb(70, 250, 70);
 }
     
 .color-accent-bg-dark{
-    color: rgb(1, 134, 1);
+    background-color: rgb(1, 134, 1);
 }
 
 .color-success-bg{
-    color: #f8c701;
+    background-color: #f8c701;
 }
 
 .color-success-bg-light{
-    color: rgb(250, 253, 47);  
+    background-color: rgb(250, 253, 47);  
 }
 
 .color-success-bg-dark{
-    color: #c59e00;
+    background-color: #c59e00;
 }
 
 .color-warning-bg{
-    color: #fd3402;
+    background-color: #fd3402;
 }
     
 .color-warning-bg-light{
-    color: #fc623b;
+    background-color: #fc623b;
 }
     
 .color-warning-bg-dark{
-    color: #921e01;
+    background-color: #921e01;
 }
 
 .color-danger-bg{
-    color: #ff0404;
+    background-color: #ff0404;
 }
 
 .color-danger-bg-light{
-    color: #ff2f2f;
+    background-color: #ff2f2f;
 }
 
 .color-danger-bg-dark{
-    color: #ad0202;
+    background-color: #ad0202;
 }
 
 .color-info-bg{
-    color: #06bcf8;
+    background-color: #06bcf8;
 }
 
 .color-info-bg-light{
-    color: #3acbfc;
+    background-color: #3acbfc;
 }
 
 .color-info-bg-dark{
-    color: #0286b3;
+    background-color: #0286b3;
 }
 
 .color-background-main{

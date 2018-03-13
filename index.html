@@ -7,32 +7,60 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/images.css">
     <title>Document</title>
 </head>
 <body>
-
-    <div class="viewport-container color-background-main body">
-        <div class="grid">
-            <div class="navbar grid-row-1">sidebar</div>
-            <div class="navbar2 grid-column-2">navbar2</div>
-                <div class="flex-center  ">
-                        <div class="margin-100 flex-row flex-space-evenly">
-                        <div class="box-200-px margin
-                                     hovertest
-                                     flex-center ">grid</div>
-                        <div class="box-200-px margin-25 
-                                     hovertest2
-                                     flex-center
-                                     layout">er</div>
-                        <div class="box-200-px margin-25
-                                     hovertest1
-                                     flex-center">gøy</div>
-                    </div>
-                </div>
-        </div>
-        
-
-    </div>
     
+    <!-- main -->
+    <div class="viewport-container">
+      <div class="grid-layout-default">
+        <!-- Navbar -->
+        <div class="grid-area-default-navbar 
+                    color-primary-bg">navbar</div>
+        <!-- Navbar end -->
+        <!-- content -->
+        <div class="grid-area-default-content
+                     color-success-bg">
+           <div class="grid-layout-horizontal-split">
+              <div class="grid-area-horizontal-split-top
+                          color-warning-bg">
+                        <div class="flex-row">
+                            <h1 class="border justify-content-center">Headliner</h1>
+                        </div>
+                    </div>
+              <div class="grid-area-horizontal-split-bottom
+                          color-danger-bg-dark">
+                          <div class="flex-row flex-justify-center">
+                        <div class="border
+                                    font-4">
+                                    <img src="img/viking1.img.jpeg " alt="" width="200px" height="200px">
+                                    </div>
+                        <div class="border
+                                    font-4">
+                                    <img src="img/viking2.img.jpg" alt="" width="200px" height="200px">
+                                    </div>
+                        <div class="border
+                                    font-4">
+                                    <img src="img/viking3.img.png" alt="" width="200px" height="200px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>         
+                    </div>
+        <!-- content end -->
+        <!-- Footer -->
+        <div class="grid-area-default-footer
+                     color-warning-bg-dark">footer</div>
+        <!-- Footer end -->
+            
+     </div>
+    </div>
+    <!-- main end -->
+
+
+
 </body>
 </html>
