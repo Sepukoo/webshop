@@ -12,10 +12,24 @@
     justify-content: space-around;
 }
 
+.align-content-center-space{
+    align-content: space-between
+}
+
 .align-content-center{
     align-content: center;
     align-content: space-between;
 }
+
+.align-self{
+    align-self: center;
+}
+
+.centered{
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+  }
 
 .flex-item{
 font-size: 30px;
@@ -195,3 +209,18 @@ li {
 .body{
     margin: 0px;
 }
+
+li,
+ul,
+ol{
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    color: #00659c;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+}
+
