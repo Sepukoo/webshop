@@ -1,71 +1,93 @@
-.flex-justify-left{
-    justify-content: left;
-    justify-content: space-between;
-}
 
-.flex-justify-right{
-    justify-content: right;
-    justify-content: space-between;
-}
-
-.flex-space-evenly{
-    justify-content: space-around;
-}
-
-.align-content-center-space{
-    align-content: space-between
-}
-
-.align-content-center{
-    align-content: center;
-    align-content: space-between;
-}
-
-.align-self{
-    align-self: center;
-}
-
-.centered{
-    position: fixed; /* or absolute */
-    top: 50%;
-    left: 50%;
-  }
-
-.flex-item{
-font-size: 30px;
-color: #0088ce;
-padding: 50px;
-}
-
-.flex-navbar{
-    padding:10px;
-}
-
-.flex-content{
-    flex: 0 1 auto; 
- } 
-  /*slett meg*/
-
-
-    
-.flex-sak{
-      width: 400px;
-      height: 400px;
-
-  }
+  /* boxes */
 
 .container{
-      border: solid 1px rgb(241, 3, 229);
-      width: 100%;
-      height: 100%;
-  }
-
- /* utility class  */
-.text-center {
-    text-align:center;
+    border: solid 1px rgb(241, 3, 229);
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
 
-.hovertest {
+.box-150-px{
+    height: 150;
+    width: 150px;
+    border: solid 1px black;
+}
+
+.box-300-px{
+    border: solid;
+    width: 300px;
+    height: 300px;
+    background-color: purple;        
+}
+
+.box-test{
+    border: solid 1px black;
+    width: 80%;
+    height: 200px;
+    align-content: center;
+    margin: 60px;
+}
+
+.box-200-px{
+    border: solid;
+    width: 200px;
+    height: 200px;
+   
+}
+
+.box-50-px{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border: solid 1px black;
+} 
+
+.box-100-px{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    border: solid 1px black;
+}
+
+.box-user{
+    height: 50px;
+    width: 200px;
+    margin: 25px;
+    border: solid 1px black;
+}
+
+
+/* boxes end */
+
+/* margin's */
+
+.margin-25{
+    margin: 25px;
+}
+
+.margin-50{
+    margin: 50px;
+}
+
+.margin-100{
+    margin: 100px;
+}
+
+.margin-125{
+    margin: 125px;
+}
+
+.margin-150{
+    margin: 150px;
+}
+
+/* margin's end */
+
+ /* hover classes  */
+
+
+ .hovertest {
     transition: background-color 0.5s;
   }
   
@@ -89,61 +111,12 @@ padding: 50px;
     background-color: darkmagenta;
   }
 
-.box-150-px{
-    height: 150;
-    width: 150px;
-    border: solid 1px black;
+/* hover classes end */  
+
+
+.text-center {
+    text-align:center;
 }
-
-.box-300-px{
-    border: solid;
-    width: 300px;
-    height: 300px;
-    align-content: center;
-    background-color: purple;   
-}
-
-.box-test{
-    border: solid 1px black;
-    width: 80%;
-    height: 200px;
-    align-content: center;
-    margin: 60px;
-}
-
-.box-200-px{
-    border: solid;
-    width: 200px;
-    height: 200px;
-   
-}
-
-.margin-25{
-    margin: 25px;
-}
-
-.margin-50{
-    margin: 50px;
-}
-
-.margin-100{
-    margin: 100px;
-}
-
-.box-50-px-1{
-    height: 50px;
-    width: 50px;
-    margin: 5px;
-    border: solid 1px black;
-} 
-
-.box-100-px-1{
-    height: 100px;
-    width: 100px;
-    margin: 25px;
-    border: solid 1px black;
-}
-
 
 ul {
     list-style-type: none;
@@ -206,7 +179,7 @@ li {
 }
  /* Base html tags*/
 
-.body{
+body{
     margin: 0px;
 }
 

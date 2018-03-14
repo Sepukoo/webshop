@@ -23,6 +23,68 @@ FLEXBOX
     flex-direction: column;
 }
 
+/* Align items start */
+
+.flex-item-align-self{
+    align-self: auto;
+}
+
+.flex-justify-left{
+    justify-content: left;
+    justify-content: space-between;
+}
+
+.flex-justify-right{
+    justify-content: right;
+    justify-content: space-between;
+}
+
+.flex-space-evenly{
+    justify-content: space-around;
+}
+
+.align-content-center-space{
+    align-content: space-between
+}
+
+.align-content-center{
+    align-content: center;
+    align-content: space-between;
+}
+
+.align-self{
+    align-self: center;
+}
+
+.centered{
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+  }
+/* align items end*/
+
+
+.flex-item{
+font-size: 30px;
+color: #0088ce;
+padding: 50px;
+}
+
+.flex-navbar{
+    padding:10px;
+}
+
+.flex-content{
+    flex: 0 1 auto; 
+ } 
+   
+.flex-sak{
+      width: 400px;
+      height: 400px;
+
+/* FLEXBOX END */
+
+  }
  .navbar{
     background-color: blue;
     color: white;
