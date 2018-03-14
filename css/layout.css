@@ -61,14 +61,25 @@ FLEXBOX
     top: 50%;
     left: 50%;
   }
+
+.text-center {
+    text-align:center;  
+} 
+
 /* align items end*/
 
 
-.flex-item{
+.flex-item-50{
 font-size: 30px;
 color: #0088ce;
 padding: 50px;
 }
+
+.flex-item-20{
+    font-size: 30px;
+    color: #0088ce;
+    padding: 20px;
+    }
 
 .flex-navbar{
     padding:10px;
@@ -252,3 +263,7 @@ padding: 50px;
 }
 
 
+hr{
+    width:100%;
+    color: black;
+}
