@@ -64,6 +64,10 @@
     border: solid 1px black;
 }
 
+.box-flex{
+    display:flex;
+}
+
 .box-cards{
     display:flex;
     margin: 50px;
@@ -215,3 +219,16 @@ li {
 }
 
 /* base thml tags end */
+
+/* Table start*/
+
+table, th, tr, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+
+
+
+
+
+/* Table end */
